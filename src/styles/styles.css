@@ -1,0 +1,49 @@
+#root {
+  background: linear-gradient(to right, #146C94, white, white, white,#146C94);
+}
+.wrapper{
+  max-width: 80%;
+  margin-left: 10%;
+  padding: 3%;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.online-ide {
+  display: flex;
+  flex-direction: column;
+}
+
+.code-editor {
+  flex-grow: 1;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+}
+.button-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  margin: 10px 0;
+}
+
+.output-display {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  flex-grow: 1;
+  background-color: #AFD3E2;
+}
+
+.banner {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
